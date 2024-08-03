@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+    <style>
+        *{
+            background-color: gray;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="width()">Width</button>
+    <button onclick="hight()">hight</button>
+    <button onclick="Awidth()">Avalaible width</button>
+    <button onclick="Ahight()">Avalaible hight</button>
+    <button onclick="color()">color Depth</button>
+    <button onclick="pixel()">pixel ratio</button>
+    <script>
+        function width(){
+            document.write(screen.width)
+        }
+        function hight() {
+            document.write(screen.height)
+        }
+        function Awidth() {
+            document.write(screen.availWidth)
+            
+        }
+        function Ahight() {
+            document.write(screen.availHeight)
+        }
+        function color(){
+            document.write(screen.colorDepth)
+        }
+        function pixel(){
+            document.write(screen.pixelDepth)
+            
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bulb</title>
+  </head>
+  <body>
+    <img id="img" src="off.png" height="300px" style="margin-left: 35%" />
+    <button id="on">ON</button>
+    <button id="off">OFF</button>
+
+    <script>
+      var img = document.getElementById("img");
+      var on = document.getElementById("on");
+      var off = document.getElementById("off");
+
+      on.addEventListener("click", function () {
+        img.src = "on.png";
+      });
+      off.addEventListener("click", function () {
+        img.src = "off.png";
+      });
+    </script>
+  </body>
+</html>

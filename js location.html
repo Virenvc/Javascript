@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>location</title>
+</head>
+<body>
+
+    <button onclick="locat()">location</button>
+    <button onclick="host()">host</button>
+    <button onclick="hostname()">hostname</button>
+    <button onclick="path()">path</button>
+    <button onclick="protocol()">protocol</button>
+    <button onclick="port()">port</button>
+    <script>
+        function locat() {
+            document.write(window.location.href);
+        }
+
+        function host() {
+            document.write(window.location.host);
+        }
+        function hostname() {
+            document.write(window.location.hostname);
+        }
+        function path() {
+            document.write(window.location.pathname)
+        }
+        function protocol() {
+            document.write(window.location.protocol)
+        }
+        function port() {
+            document.write(window.location.port)
+        }
+    </script>
+
+</body>
+</html>

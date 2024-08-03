@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video</title>
+  </head>
+  <body>
+    <div class="btn" style="text-align: center">
+      <button onclick="playpause()">Play/pause</button>
+      <button onclick="big()">big</button>
+      <button onclick="small()">small</button>
+      <button onclick="normal()">Normal</button>
+
+      <br /><br />
+
+      <video id="video1" width="600" controls>
+        <source
+          src="DP World Asia Cup 2022_ INDvAFG _ Virat Kohli's first T20I 100!.mp4" 
+        />
+      </video>
+    </div>
+    <script>
+      var video = document.getElementById("video1");
+
+      function playpause() {
+        if (video.paused)
+            video.play();
+        else 
+            video.pause();
+      }
+
+      function play(){
+        video.play;
+      }
+      function big() {
+        video.width = 800;
+      }
+      function small() {
+        video.width = 350;
+      }
+      function normal() {
+        video.width = 600;
+      }
+    </script>
+
+   
+  </body>
+</html>
