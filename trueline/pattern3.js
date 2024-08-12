@@ -13,12 +13,3 @@ for (let i = 1; i <= r; i++) {
     pat += "\n";
 }
 console.log(pat);
-/*
-fbhu
-dffr
-r
-rfg
-er
-fgr
-fgrt
- */
