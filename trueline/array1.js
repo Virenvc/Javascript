@@ -8,6 +8,3 @@ console.log(fruits);
 console.log(typeof fruits);
 
 console.log(fruits.length);
-console.log(fruits.length);
-console.log(fruits.length);
-console.log(fruits.length);
