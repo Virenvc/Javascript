@@ -21,6 +21,3 @@ console.log(str.indexOf("an"));
 console.log(str.lastIndexOf("an"));
 
 console.log(str.replace("javascript", "php"));
-
-
-
