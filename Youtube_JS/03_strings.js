@@ -10,7 +10,7 @@ const gamename = new String("battelgrounds mobile india");
 
 // const str1 = gamename.substring(0, 13);
 // console.log(str1);
-// const str2 = gamename.slice(-25, 23);
+// const str2 = gamename.slm ice(-25, 23);
 // console.log(str2);
 
 let str3 = "   ayush   ";
