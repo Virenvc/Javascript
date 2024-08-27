@@ -19,3 +19,4 @@ console.log(str3.trim());
 console.log(str3.replace("ayush", "savaliya"));
 console.log(str3.includes("z"));
 console.log(gamename.split(" "));
+console.log(gamename.split("*"));
