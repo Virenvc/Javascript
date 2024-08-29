@@ -56,3 +56,5 @@ console.log(Math.pow(2, 4));
 console.log(Math.random() * 100);
 console.log(Math.abs(-23));
 console.log(Math.PI);
+
+console.log(Math.search("ayush" | "a"));
