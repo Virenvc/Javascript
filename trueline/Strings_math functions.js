@@ -57,4 +57,20 @@ console.log(Math.random() * 100);
 console.log(Math.abs(-23));
 console.log(Math.PI);
 
+
+console.log("math fucntion");
+console.log(Math.ceil(5.2));
+console.log(Math.floor(5.2));
+console.log(Math.round(5.6));
+console.log(Math.trunc(5.4));
+console.log(Math.max(1, 2, 3, 4));
+console.log(Math.min(1, 2, 3, 4));
+console.log(Math.cbrt(8));
+console.log(Math.sqrt(8));
+console.log(Math.pow(2, 4));
+console.log(Math.random() * 100);
+console.log(Math.abs(-23));
+console.log(Math.PI);
+
+
 console.log("https://w3layouts.com/template/race-sports-category-flat-bootstrap-responsive-web-template/");
